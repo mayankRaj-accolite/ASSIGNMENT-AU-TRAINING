@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+	<head>
+		<script>
+			function localCompare()
+			{
+				
+				var storedEmail = localStorage.getItem('email');
+				var storedPassword = localStorage.getItem('password');
+				
+				var mail=document.getElementById("mail1").value;
+				var pass=document.getElementById("password1").value;
+				
+				
+				
+				 if(storedEmail==mail && storedPassword == pass) {
+						
+						alert("Successfully logged in!!");
+				}
+				else {
+					alert('Invalid username or password');
+					  }
+				}
+			
+		</script>
+	
+	</head>
+	
+	<body>
+	
+		<div>
+			<h1>Login to continue</h1>
+		</div>
+		
+		<div>
+			<form action ="Mayank_Raj_VideoPortal.html" onsubmit="return localCompare()" method="post">
+				Email:<br>
+				<input type="email" name="email" value="abc@gmail.com", id="mail1"><br>
+				Password:<br>
+				<input type="password" name="password" value="12345", id="password1"><br>
+				<br>
+				<input type="submit" value="login" >
+			</form>
+		</div>
+		
+		
+	
+	</body>
+
+</html>

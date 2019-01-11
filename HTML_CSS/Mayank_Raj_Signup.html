@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+	<head>
+	
+		<title>
+			Signup Page
+		</title>
+		<style>
+			#style1
+			{
+				height:25%;
+				color:blue;
+				text-align:center;
+			}
+			#style2
+			{
+				height:50%;
+				background-color:#AED6F1;
+				text-align:center;
+				
+			}
+			#style3
+			{
+				height:25%;
+				text-align:center;
+			}
+		</style>
+	
+	<script>
+			function localStore()
+			{
+				
+				
+				var emailid=document.getElementById("mail").value;
+				var pasword=document.getElementById("pass").value;
+
+				localStorage.setItem("email", emailid);
+				localStorage.setItem("password",pasword );
+				
+				alert("Successfully SignedUp");
+				
+				
+			}
+	</script>
+	
+	</head>
+	
+	<body>
+		<div id="style1">
+			<h1 >Signup Page</h1>
+		</div>
+		
+		<div id="style2">
+			<form  action="Mayank_Raj_Login.html" onsubmit="localStore()">
+				First name:<br>
+			    <input type="text" name="firstname" value="Mickey"><br>
+				Last name:<br>
+				<input type="text" name="lastname" value="Mouse"><br>
+				Email:<br>
+				<input type="email" name="email" value="abc@gmail.com" id="mail"><br>
+				Password:<br>
+				<input type="password" name="password" value="12345" id="pass"><br>
+				<br>
+				<input type="submit" value="signup" >
+			</form>
+		</div>
+		<div id="style3">
+				<h3>Already a member</h3>
+				<a href="Mayank_Raj_Login.html">Signin</a>
+		</div>
+		
+		
+		
+		
+	</body>
+</html>
