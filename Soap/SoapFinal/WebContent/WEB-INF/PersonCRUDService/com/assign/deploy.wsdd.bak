@@ -1,0 +1,41 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from PersonCRUDService WSDL service -->
+
+  <service name="PersonCRUD" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://assign.com"/>
+      <parameter name="wsdlServiceElement" value="PersonCRUDService"/>
+      <parameter name="schemaQualified" value="http://assign.com"/>
+      <parameter name="wsdlServicePort" value="PersonCRUD"/>
+      <parameter name="className" value="com.assign.PersonCRUDSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="PersonCRUD"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="create" qname="operNS:create" xmlns:operNS="http://assign.com" returnQName="retNS:createReturn" xmlns:retNS="http://assign.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:name" xmlns:pns="http://assign.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:age" xmlns:pns="http://assign.com" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:id" xmlns:pns="http://assign.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="display" qname="operNS:Display" xmlns:operNS="http://assign.com" returnQName="retNS:DisplayReturn" xmlns:retNS="http://assign.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      </operation>
+      <operation name="deleteById" qname="operNS:deleteById" xmlns:operNS="http://assign.com" returnQName="retNS:deleteByIdReturn" xmlns:retNS="http://assign.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://assign.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="update" qname="operNS:Update" xmlns:operNS="http://assign.com" returnQName="retNS:UpdateReturn" xmlns:retNS="http://assign.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:name" xmlns:pns="http://assign.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:age" xmlns:pns="http://assign.com" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:id" xmlns:pns="http://assign.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <parameter name="allowedMethods" value="display deleteById create update"/>
+
+  </service>
+</deployment>
