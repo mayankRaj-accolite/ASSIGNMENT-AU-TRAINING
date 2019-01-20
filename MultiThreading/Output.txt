@@ -1,0 +1,118 @@
+...Starting simulaion...
+New Taxi arrives
+New Taxi arrives
+New Taxi arrives
+New Taxi arrives
+New Taxi arrives
+---Creating a TaxiStand with capacity---5
+Starting taxiQueue Thread...
+New passenger with destination SARJAPUR arrives at stand.
+Empty Taxi - set Destination SARJAPUR
+Passenger boards taxi to SARJAPUR- passenger count 1
+New passenger with destination INDIRANAGAR arrives at stand.
+Unable to allocate passenger to this taxi
+Empty Taxi - set Destination INDIRANAGAR
+Passenger boards taxi to INDIRANAGAR- passenger count 1
+New Taxi arrives
+Adding Taxi to the queue
+New passenger with destination WHITEFIELD arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Empty Taxi - set Destination WHITEFIELD
+Passenger boards taxi to WHITEFIELD- passenger count 1
+New passenger with destination SARJAPUR arrives at stand.
+Found taxi to SARJAPUR
+Passenger boards taxi to SARJAPUR- passenger count 2
+New passenger with destination INDIRANAGAR arrives at stand.
+Unable to allocate passenger to this taxi
+Found taxi to INDIRANAGAR
+Passenger boards taxi to INDIRANAGAR- passenger count 2
+New Taxi arrives
+Adding Taxi to the queue
+New passenger with destination PEENYA arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Empty Taxi - set Destination PEENYA
+Passenger boards taxi to PEENYA- passenger count 1
+New passenger with destination MGROAD arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Empty Taxi - set Destination MGROAD
+Passenger boards taxi to MGROAD- passenger count 1
+New passenger with destination INDIRANAGAR arrives at stand.
+Unable to allocate passenger to this taxi
+Found taxi to INDIRANAGAR
+Passenger boards taxi to INDIRANAGAR- passenger count 3
+New Taxi arrives
+Adding Taxi to the queue
+New passenger with destination JAYANAGAR arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Presently No cab found for current passenger. Adding Passenger to Queue..
+Passeneger successfully added to queue...
+New passenger with destination HEBBAL arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Presently No cab found for current passenger. Adding Passenger to Queue..
+Passeneger successfully added to queue...
+New passenger with destination JAYANAGAR arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Presently No cab found for current passenger. Adding Passenger to Queue..
+Passeneger successfully added to queue...
+New Taxi arrives
+Adding Taxi to the queue
+New passenger with destination KORAMANGLA arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Presently No cab found for current passenger. Adding Passenger to Queue..
+Passeneger successfully added to queue...
+New passenger with destination JAYANAGAR arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Presently No cab found for current passenger. Adding Passenger to Queue..
+Passeneger successfully added to queue...
+New passenger with destination JAYANAGAR arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Presently No cab found for current passenger. Adding Passenger to Queue..
+Passeneger successfully added to queue...
+New Taxi arrives
+Adding Taxi to the queue
+New passenger with destination PEENYA arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Found taxi to PEENYA
+Passenger boards taxi to PEENYA- passenger count 2
+Taxi to:SARJAPURis leaving due to timeout
+New passenger with destination INDIRANAGAR arrives at stand.
+Found taxi to INDIRANAGAR
+Passenger boards taxi to INDIRANAGAR- passenger count 4
+Taxi to:INDIRANAGARis leaving due to timeout
+New passenger with destination SARJAPUR arrives at stand.
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Unable to allocate passenger to this taxi
+Empty Taxi - set Destination SARJAPUR
