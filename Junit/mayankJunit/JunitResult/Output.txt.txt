@@ -1,0 +1,40 @@
+Hibernate: select this_.studentId as studentI1_1_0_, this_.dob as dob2_1_0_, this_.marks as marks3_1_0_, this_.studentName as studentN4_1_0_ from student this_ where this_.studentId>?
+
+Student Data from Database: 
+
+StudentID: 1   Marks: 67   DOB: 2-1-1996   StudentName: ashwini
+StudentID: 2   Marks: 89   DOB: 21-2-1995   StudentName: gaurav
+StudentID: 3   Marks: 67   DOB: 2-11-1996   StudentName: mayank
+StudentID: 4   Marks: 64   DOB: 2-2-1996   StudentName: raj
+StudentID: 5   Marks: 78   DOB: 2-12-1996   StudentName: yash
+StudentID: 6   Marks: 78   DOB: 3-4-1995   StudentName: priyam
+StudentID: 7   Marks: 64   DOB: 1-3-1997   StudentName: vadiraj
+StudentID: 8   Marks: 64   DOB: 1-4-1998   StudentName: soumya
+StudentID: 9   Marks: 83   DOB: 1-5-1998   StudentName: rashmi
+StudentID: 10   Marks: 80   DOB: 4-6-1997   StudentName: shruthi
+
+
+Hibernate: insert into rankTable (dob, marks, studentId, studentName, studentRank) values (?, ?, ?, ?, ?)
+Hibernate: insert into rankTable (dob, marks, studentId, studentName, studentRank) values (?, ?, ?, ?, ?)
+Hibernate: insert into rankTable (dob, marks, studentId, studentName, studentRank) values (?, ?, ?, ?, ?)
+Hibernate: insert into rankTable (dob, marks, studentId, studentName, studentRank) values (?, ?, ?, ?, ?)
+Hibernate: insert into rankTable (dob, marks, studentId, studentName, studentRank) values (?, ?, ?, ?, ?)
+Hibernate: insert into rankTable (dob, marks, studentId, studentName, studentRank) values (?, ?, ?, ?, ?)
+Hibernate: insert into rankTable (dob, marks, studentId, studentName, studentRank) values (?, ?, ?, ?, ?)
+Hibernate: insert into rankTable (dob, marks, studentId, studentName, studentRank) values (?, ?, ?, ?, ?)
+Hibernate: insert into rankTable (dob, marks, studentId, studentName, studentRank) values (?, ?, ?, ?, ?)
+Hibernate: insert into rankTable (dob, marks, studentId, studentName, studentRank) values (?, ?, ?, ?, ?)
+
+
+Student Rank: 
+
+Rank: 1   Marks: 89   DOB: 21-2-1995   StudentID: 2   StudentName: gaurav
+Rank: 2   Marks: 83   DOB: 1-5-1998   StudentID: 9   StudentName: rashmi
+Rank: 3   Marks: 80   DOB: 4-6-1997   StudentID: 10   StudentName: shruthi
+Rank: 4   Marks: 78   DOB: 3-4-1995   StudentID: 6   StudentName: priyam
+Rank: 5   Marks: 78   DOB: 2-12-1996   StudentID: 5   StudentName: yash
+Rank: 6   Marks: 67   DOB: 2-1-1996   StudentID: 1   StudentName: ashwini
+Rank: 7   Marks: 67   DOB: 2-11-1996   StudentID: 3   StudentName: mayank
+Rank: 8   Marks: 64   DOB: 2-2-1996   StudentID: 4   StudentName: raj
+Rank: 9   Marks: 64   DOB: 1-3-1997   StudentID: 7   StudentName: vadiraj
+Rank: 10   Marks: 64   DOB: 1-4-1998   StudentID: 8   StudentName: soumya
