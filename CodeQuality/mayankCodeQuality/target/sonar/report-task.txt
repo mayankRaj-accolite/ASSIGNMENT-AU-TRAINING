@@ -1,0 +1,6 @@
+projectKey=codeQuality:Mayank
+serverUrl=http://localhost:9000
+serverVersion=7.5.0.20543
+dashboardUrl=http://localhost:9000/dashboard?id=codeQuality%3AMayank
+ceTaskId=AWh-9u2d-AMoOkdbRrXJ
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWh-9u2d-AMoOkdbRrXJ
